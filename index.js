@@ -43,7 +43,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['923146190772']
+  const ownerNumber = ['94772194789']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -245,7 +245,7 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
-  if(senderNumber.includes("923146190772")){
+  if(senderNumber.includes("94772194789")){
   if(isReact) return
   m.react("🦋")
    }
