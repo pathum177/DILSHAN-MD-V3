@@ -112,7 +112,7 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there DILSHAN-MD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet DILSHAN-MD WhatsApp Bot.\n\n *Thanks for using DILSHAN-MD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029Vb5nAex2UPBGW79XCX1T\n\> ©𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘 𝐃𝐈𝐋𝐒𝐇𝐀𝐍 𝐌𝐃 𝐕1 \ud83d\udda4`;
+  let up = `*Hello there DILSHAN-MD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet DILSHAN-MD WhatsApp Bot.\n\n *Thanks for using DILSHAN-MD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029Vb5nAex2UPBGW79XCX1T\n\n\n\n> ©𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘 𝐃𝐈𝐋𝐒𝐇𝐀𝐍 𝐌𝐃 𝐕1 \ud83d\udda4`;
     conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/ycVpN2rX/b1e376e693bd850d.jpg` }, caption: up })
   }
   })
