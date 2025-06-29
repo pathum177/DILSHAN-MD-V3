@@ -58,7 +58,7 @@ cmd({
       try {
         return await _0x1f175b.sendMessage(_0x98cd0, {
           'image': {
-            'url':"https://files.catbox.moe/zqu8s7.jpg"
+            'url':"https://i.ibb.co/FkPhqKHb/Queen-Rashu-Md.jpg"
           },
           'caption': _0x3a9262,
           'contextInfo': _0x18e40d
