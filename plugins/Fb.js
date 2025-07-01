@@ -62,7 +62,7 @@ const sentMsg = await conn.sendMessage(from, {
           body: '𝙻𝚄𝚇𝙰𝙻𝙶𝙾 ꜰᴀᴄᴇʙᴏᴏᴋ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ',
           mediaType: 1,
           sourceUrl: "https://github.com/luxalgo/algo",
-          thumbnailUrl: 'https://files.catbox.moe/joo2gt.jpg', // This should match the image URL provided above
+          thumbnailUrl: 'https://i.ibb.co/FkPhqKHb/Queen-Rashu-Md.jpg', // This should match the image URL provided above
           renderLargerThumbnail: false,
           showAdAttribution: true
       }
@@ -111,7 +111,7 @@ conn.ev.on('messages.upsert', async (messageUpdate) => {
                       body: 'ʟᴜxᴀʟɢᴏ xᴅ ꜰᴀᴄᴇʙᴏᴏᴋ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ',
                       mediaType: 1,
                       sourceUrl: "https://github.com/luxalgo/algo",
-                      thumbnailUrl: 'https://files.catbox.moe/joo2gt.jpg', // This should match the image URL provided above
+                      thumbnailUrl: 'https://i.ibb.co/FkPhqKHb/Queen-Rashu-Md.jpg', // This should match the image URL provided above
                       renderLargerThumbnail: false,
                       showAdAttribution: true
                   }
@@ -139,7 +139,7 @@ conn.ev.on('messages.upsert', async (messageUpdate) => {
                       body: 'ʟᴜxᴀʟɢᴏ xᴅ ꜰᴀᴄᴇʙᴏᴏᴋ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ',
                       mediaType: 1,
                       sourceUrl: "https://github.com/luxalgo/algo",
-                      thumbnailUrl: 'https://files.catbox.moe/joo2gt.jpg', // This should match the image URL provided above
+                      thumbnailUrl: 'https://i.ibb.co/FkPhqKHb/Queen-Rashu-Md.jpg', // This should match the image URL provided above
                       renderLargerThumbnail: false,
                       showAdAttribution: true
                   }
@@ -173,7 +173,7 @@ conn.ev.on('messages.upsert', async (messageUpdate) => {
                     body: 'ʟᴜxᴀʟɢᴏ xᴅ ꜰᴀᴄᴇʙᴏᴏᴋ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ',
                     mediaType: 1,
                     sourceUrl: "https://github.com/luxalgo/algo",
-                    thumbnailUrl: 'https://files.catbox.moe/joo2gt.jpg', // This should match the image URL provided above
+                    thumbnailUrl: 'https://i.ibb.co/FkPhqKHb/Queen-Rashu-Md.jpg', // This should match the image URL provided above
                     renderLargerThumbnail: false,
                     showAdAttribution: true
                 }
