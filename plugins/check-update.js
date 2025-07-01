@@ -56,9 +56,9 @@ cmd({
     const githubRepo = 'https://github.com/XdTechPro/KHAN-MD';
 
     // Check update status
-    let updateMessage = `✅ Your KHAN-MD bot is up-to-date!`;
+    let updateMessage = `✅ Your DILSHAN-MD V1 bot is up-to-date!`;
     if (localVersion !== latestVersion) {
-      updateMessage = `🚀 Your KHAN-MD bot is outdated!
+      updateMessage = `🚀 Your DILSHAN-MD V1 bot is outdated!
 🔹 *Current Version:* ${localVersion}
 🔹 *Latest Version:* ${latestVersion}
 
@@ -69,7 +69,7 @@ Use *.update* to update.`;
       `📌 *Bot Name:* DILSHAN-MD V1\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
       `💾 *System Info:*\n⏳ *Uptime:* ${uptime}\n📟 *RAM Usage:* ${ramUsage}MB / ${totalRam}MB\n⚙️ *Host Name:* ${hostName}\n📅 *Last Update:* ${lastUpdate}\n\n` +
       `📝 *Changelog:*\n${latestChangelog}\n\n` +
-      `⭐ *GitHub Repo:*https://github.com/DILSHAN542/DILSHAN-MD-V2\n👤 *Owner:* ❖Dilshan Ashinsa➣(https://github.com/DILSHAN542/DILSHAN-MD-V2)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
+      `⭐  GitHub Repo:https://github.com/DILSHAN542/DILSHAN-MD-V2\n👤 *Owner:* ❖Dilshan Ashinsa➣(https://github.com/DILSHAN542/DILSHAN-MD-V2)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
 
     // Send the status message with an image
     await conn.sendMessage(from, {
