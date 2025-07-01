@@ -53,7 +53,7 @@ cmd({
     const lastUpdate = fs.statSync(localVersionPath).mtime.toLocaleString();
 
     // GitHub stats
-    const githubRepo = 'https://github.com/XdTechPro/KHAN-MD';
+    const githubRepo = 'https://github.com/DILSHAN542/DILSHAN-MD-V2';
 
     // Check update status
     let updateMessage = `✅ Your DILSHAN-MD V1 bot is up-to-date!`;
@@ -68,10 +68,10 @@ Use *.update* to update.`;
     const statusMessage = `🌟 *Good ${new Date().getHours() < 12 ? 'Morning' : 'Night'}, ${pushname}!* 🌟\n\n` +
         `╔═══❖ 𝗕𝗢𝗧 𝗜𝗡𝗙𝗢 ❖═══╗`
       `📌 *Bot Name:* DILSHAN-MD V1\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
-      `╔═══❖ 𝗦𝗬𝗦𝗧𝗘𝗠 𝗜𝗡𝗙𝗢 ❖═══╗`
+      `╔═══❖ 𝗦𝗬𝗦𝗧𝗘𝗠 𝗜𝗡𝗙𝗢 ❖═══╗`                                                                                                                   `╚════════════════════╝`
       `💾 *System Info:*\n⏳ *Uptime:* ${uptime}\n📟 *RAM Usage:* ${ramUsage}MB / ${totalRam}MB\n⚙️ *Host Name:* ${hostName}\n📅 *Last Update:* ${lastUpdate}\n\n` +
       `📝 *Changelog:*\n${latestChangelog}\n\n` +                                                                                `╚════════════════════╝`
-      `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [Dilshan Ashinsa](https://github.com/XdTechPro)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
+      `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [Dilshan Ashinsa](https://github.com/DILSHAN542/DILSHAN-MD-V2)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
 
     // Send the status message with an image
     await conn.sendMessage(from, {
