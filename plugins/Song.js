@@ -32,7 +32,7 @@ cmd({
             return reply("❌ *Failed to fetch the audio.*");
         }
 
-        let msg = `*🎶 LUXALGO XD SONG DOWNLOADER 🎶*
+        let msg = `*🎶 DILSHAN MD V1 SONG DOWNLOADER 🎶*
 
 ╭━━❐━⪼
 ┇🎵 *Title* : ${yts.title}
@@ -48,7 +48,8 @@ cmd({
 
 > _Reply with the number only (1/2/3) to download._
 
-© Powered by Luxalgo ♡`;
+
+> ©𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘 𝐃𝐈𝐋𝐒𝐇𝐀𝐍 𝐌𝐃 𝐯1`;
 
         let sent = await conn.sendMessage(from, { image: { url: data.result.image || '' }, caption: msg }, { quoted: mek });
 
@@ -87,7 +88,7 @@ commands.push({
                     document: { url: song.url },
                     mimetype: "audio/mpeg",
                     fileName: `${song.title}.mp3`,
-                    caption: `🎶 *${song.title}*\n📁 Format: Document\n\n©LUXALGO XD ♡`
+                    caption: `🎶 *${song.title}*\n📁 Format: Document\n\n©𝐃𝐈𝐋𝐒𝐇𝐀𝐍 𝐌𝐃 𝐯1❖`
                 }, { quoted: mek });
             } else if (choice === '3') {
                 await conn.sendMessage(mek.chat, {
