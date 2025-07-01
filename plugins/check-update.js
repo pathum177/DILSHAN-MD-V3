@@ -65,12 +65,35 @@ cmd({
 Use *.update* to update.`;
     }
 
-    const statusMessage = `🌟 *Good ${new Date().getHours() < 12 ? 'Morning' : 'Night'}, ${pushname}!* 🌟\n\n` +
-      `📌 *Bot Name:* DILSHAN-MD V1\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
-      `💾 *System Info:*\n⏳ *Uptime:* ${uptime}\n📟 *RAM Usage:* ${ramUsage}MB / ${totalRam}MB\n⚙️ *Host Name:* ${hostName}\n📅 *Last Update:* ${lastUpdate}\n\n` +
-      `📝 *Changelog:*\n${latestChangelog}\n\n` +
-      `⭐  GitHub Repo:https://github.com/DILSHAN542/DILSHAN-MD-V2\n👤 *Owner:* ❖Dilshan Ashinsa➣(https://github.com/DILSHAN542/DILSHAN-MD-V2)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
+    const statusMessage = `╔═━「 💠 𝐃𝐈𝐋𝐒𝐇𝐀𝐍-𝐌𝐃 𝐔𝐏𝐃𝐀𝐓𝐄 𝐁𝐎𝐗 💠 」━═╗
 
+🌟 Good new Date().getHours() < 12 ? 'Morning' : 'Night', *{pushname}* 🌟
+
+╔═══❖ 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎 ❖═══╗
+📌 *Bot Name*       : DILSHAN-MD V1
+🔖 *Current Ver.*   : localVersion
+📢 *Latest Ver.*    :{latestVersion}
+📂 *Total Plugins*  : pluginCount
+🔢 *Total Commands* :{totalCommands}
+╚═══════════════════╝
+
+╔═══❖ 𝐒𝐘𝐒𝐓𝐄𝐌 ❖═══╗
+⏳ *Uptime*         : uptime
+📟 *RAM Usage*      :{ramUsage}MB / totalRamMB
+⚙️ *Host Name*      :{hostName}
+📅 *Last Update*    : lastUpdate
+╚══════════════════╝
+
+╔═══❖ 𝐂𝐇𝐀𝐍𝐆𝐄𝐋𝐎𝐆 ❖═══╗
+📝{latestChangelog}
+╚═════════════════════╝
+
+⭐ GitHub: https://github.com/DILSHAN542/DILSHAN-MD-V2  
+👤 *Owner:* ❖ Dilshan Ashinsa ➣ (GitHub Profile)
+
+${updateMessage}
+
+🚀 *Hey! Don't forget to fork & ⭐ the repo!*`;
     // Send the status message with an image
     await conn.sendMessage(from, {
       image: { url: 'https://files.catbox.moe/g50hun.m4a' },
