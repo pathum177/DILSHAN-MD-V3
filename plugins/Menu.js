@@ -23,10 +23,10 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
  │ *👤 User* :  *${pushname}*
  │ *📂 Ram usage*: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB 
  │ *⚙️ HostName*: ${os.hostname()}
- │ *👨‍💻 Owner*: Pathum Malsara
+ │ *👨‍💻 Owner*: Dilshan Ashinsa
  ╰───────────●●►
 
-* *🔢 Reply Below This Number*
+*🔢 Reply Below This Number*
 ╭═════════════════○
 *1┃• AI*
 *2┃• ANIME*
